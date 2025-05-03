@@ -17,7 +17,7 @@ jobs:
       - name: load environment variables from .env
         uses: falti/dotenv-action@v1.1.4
         with:
-          path: .env
+          path: .env.production
           export-variables: true
 
       - name: setup pnpm
@@ -31,8 +31,8 @@ jobs:
       - name: setup node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'pnpm'
+          node-version: "20"
+          cache: "pnpm"
 
       - name: install dependencies
         run: pnpm install
