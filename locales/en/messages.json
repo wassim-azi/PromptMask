@@ -1,0 +1,104 @@
+{
+  "disclaimer": {
+    "message": "We never transmit or store your personal data on any server. Everything remains under your control in Chrome's storage."
+  },
+  "secure_your_prompts_title": {
+    "message": "Secure your prompts in 3 easy steps!"
+  },
+  "swaps_1": {
+    "message": "PromptMask swaps"
+  },
+  "swaps_2": {
+    "message": "for"
+  },
+  "real_world_data": {
+    "message": "personal information"
+  },
+  "placeholders": {
+    "message": "placeholders"
+  },
+  "before_anything_leaves": {
+    "message": "before anything leaves your computer."
+  },
+  "replace_examples_with_info": {
+    "message": "Replace our examples with your own info."
+  },
+  "need_more_slots": {
+    "message": "Need more slots? Hit"
+  },
+  "add_row": {
+    "message": "Add Row"
+  },
+  "press_save_and_relax_1": {
+    "message": "Press"
+  },
+  "press_save_and_relax_2": {
+    "message": "and relax — your data stays"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "local": {
+    "message": "local"
+  },
+  "key": {
+    "message": "Key"
+  },
+  "value": {
+    "message": "Value"
+  },
+  "action": {
+    "message": "Action"
+  },
+  "key_in_lower_case": {
+    "message": "key in lower case"
+  },
+  "value_without_underscores": {
+    "message": "value without underscores"
+  },
+  "form_saved_successfully": {
+    "message": "Form saved successfully"
+  },
+  "title": {
+    "message": "PromptMask"
+  },
+  "all_set_alt": {
+    "message": "All set secure status"
+  },
+  "setup_required_alt": {
+    "message": "Setup required warning image"
+  },
+  "all_set": {
+    "message": "You're all set!"
+  },
+  "setup_required": {
+    "message": "Setup required!"
+  },
+  "data_secured": {
+    "message": "Your personal data is secured and ready for use."
+  },
+  "no_personal_data": {
+    "message": "No personal data has been added yet."
+  },
+  "please_add_data": {
+    "message": "Add your data to start using the extension."
+  },
+  "update_your_data": {
+    "message": "Update Your Data"
+  },
+  "add_your_data": {
+    "message": "Add Your Data"
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "chrome": {
+    "message": "Chrome"
+  },
+  "modal_missing_settings_title": {
+    "message": "Please configure your personal information in the extension options page."
+  },
+  "modal_missing_settings_open_options": {
+    "message": "Open settings"
+  }
+}

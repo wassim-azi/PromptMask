@@ -1,0 +1,186 @@
+{
+  // editor
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.cursorWidth": 2,
+  "editor.codeLens": true,
+  "editor.autoIndent": "full",
+  "editor.cursorStyle": "line",
+  "editor.tabCompletion": "on",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.suggestSelection": "first",
+  "editor.wordBasedSuggestions": "currentDocument",
+  "editor.stickyScroll.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.rulers": [ 180 ],
+  "editor.wordWrap": "off",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    "source.formatDocument": "always",
+    "source.organizeImports": "always",
+  },
+
+  // minimap
+  "editor.minimap.enabled": true,
+  "editor.minimap.side": "right",
+  "editor.minimap.size": "fill",
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.showMarkSectionHeaders": true,
+
+  // files nesting
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    // environment
+    ".env": ".env.*, .env.local",
+    ".env.*": ".env.${capture}.local",
+
+    // node.js
+    "package.json": "package-lock.json, pnpm-lock.yaml, yarn.lock, .npmrc",
+
+    // react
+    "*.js": "${capture}.css",
+    "*.jsx": "${capture}.css",
+    "*.ts": "${capture}.css",
+    "*.tsx": "${capture}.css",
+  },
+
+  // whitespaces
+  "editor.renderWhitespace": "all",
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  // guides
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+
+  // themes
+  "workbench.colorTheme": "Flatland Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+
+  // default formatters
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // update imports on file move or paste
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnPaste.enabled": true,
+  "typescript.updateImportsOnPaste.enabled": true,
+
+  "files.associations": {
+    ".env": "properties",
+    ".env.development": "properties",
+    ".env.production": "properties"
+  },
+
+  // inlay hints
+  "editor.inlayHints.enabled": "on",
+
+  // extensions
+  "extensions.ignoreRecommendations": false,
+
+  // natural language search
+  "workbench.settings.enableNaturalLanguageSearch": true,
+  "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
+
+  // explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+
+  // workbench
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.settings.editor": "json",
+  "workbench.tree.indent": 16,
+
+  // disable telemetry
+  "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "editor.experimental.treeSitterTelemetry": false,
+
+  // git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.rebaseWhenSync": true,
+  "git.enableSmartCommit": true,
+
+  // github copilot
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.codesearch.enabled": true,
+
+  // Hide files in VSCode explorer
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.idea": true,
+    "**/.plasmo": true,
+    "**/.vscode": false,
+    "**/*lock.*": false,
+    "**/build": true,
+    "**/node_modules": true,
+    "**/Thumbs.db": true
+  },
+
+  // Exclde files from search
+  "search.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.idea": true,
+    "**/.plasmo": true,
+    "**/.vscode": false,
+    "**/*lock.*": true,
+    "**/build": true,
+    "**/node_modules": true,
+    "**/Thumbs.db": true
+  },
+
+  // speed up the file-watcher
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/objects/**": true,
+    "**/.plasmo/**": true,
+    "**/build/**": true
+  },
+
+  // spelling
+  "cSpell.enabled": true,
+  "cSpell.language": "en,fr",
+  "cSpell.diagnosticLevel": "Warning",
+  "cSpell.words": [
+    "PromptMask",
+    "ianvs",
+    "plasmo",
+    "plasmohq",
+    "qwen"
+  ]
+}
