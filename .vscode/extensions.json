@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "gerane.theme-flatlandmonokai",
+    "github.copilot-chat",
+    "github.copilot",
+    "GitHub.vscode-github-actions",
+    "miguelsolorio.fluent-icons",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "redhat.vscode-yaml",
+    "shardulm94.trailing-spaces",
+    "streetsidesoftware.code-spell-checker",
+    "thanhtrang.theme-flatland-monokai",
+    "usernamehw.errorlens",
+    "visualstudioexptteam.vscodeintellicode-completions",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

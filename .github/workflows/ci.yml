@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: load environment variables from .env
+        uses: falti/dotenv-action@v1.1.4
+        with:
+          path: .env
+          export-variables: true
+
+      - name: setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: verify pnpm installation
+        run: pnpm --version
+
+      - name: setup node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: install dependencies
+        run: pnpm install
+
+      - name: build project
+        run: pnpm build

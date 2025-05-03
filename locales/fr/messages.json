@@ -1,0 +1,104 @@
+{
+  "disclaimer": {
+    "message": "Nous ne transmettons ni ne stockons jamais vos données personnelles. Tout reste sous votre contrôle dans le stockage de Chrome."
+  },
+  "secure_your_prompts_title": {
+    "message": "Sécurisez vos prompts en 3 étapes faciles!"
+  },
+  "swaps_1": {
+    "message": "PromptMask remplace"
+  },
+  "swaps_2": {
+    "message": "par des"
+  },
+  "real_world_data": {
+    "message": "vos données personnelles"
+  },
+  "placeholders": {
+    "message": "paramètres fictifs"
+  },
+  "before_anything_leaves": {
+    "message": "avant que quoi que ce soit ne quitte votre ordinateur."
+  },
+  "replace_examples_with_info": {
+    "message": "Remplacez nos exemples par vos propres informations."
+  },
+  "need_more_slots": {
+    "message": "Besoin de plus d'emplacements? Cliquez sur"
+  },
+  "add_row": {
+    "message": "Ajouter une ligne"
+  },
+  "press_save_and_relax_1": {
+    "message": "Appuyez sur"
+  },
+  "press_save_and_relax_2": {
+    "message": "et détendez-vous — vos données restent"
+  },
+  "save": {
+    "message": "Sauvegarder"
+  },
+  "local": {
+    "message": "locales"
+  },
+  "key": {
+    "message": "Clé"
+  },
+  "value": {
+    "message": "Valeur"
+  },
+  "action": {
+    "message": "Action"
+  },
+  "key_in_lower_case": {
+    "message": "clé en minuscules"
+  },
+  "value_without_underscores": {
+    "message": "valeur sans tirets bas"
+  },
+  "form_saved_successfully": {
+    "message": "Formulaire enregistré avec succès"
+  },
+  "title": {
+    "message": "PromptMask"
+  },
+  "all_set_alt": {
+    "message": "Statut sécurisé prêt"
+  },
+  "setup_required_alt": {
+    "message": "Image d'avertissement de configuration requise"
+  },
+  "all_set": {
+    "message": "Tout est prêt !"
+  },
+  "setup_required": {
+    "message": "Configuration requise !"
+  },
+  "data_secured": {
+    "message": "Vos données personnelles sont sécurisées et prêtes à être utilisées."
+  },
+  "no_personal_data": {
+    "message": "Aucune donnée personnelle ajoutée."
+  },
+  "please_add_data": {
+    "message": "Veuillez en ajouter pour commencer."
+  },
+  "update_your_data": {
+    "message": "Modifier vos données"
+  },
+  "add_your_data": {
+    "message": "Ajouter vos données"
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "chrome": {
+    "message": "Chrome"
+  },
+  "modal_missing_settings_title": {
+    "message": "Veuillez configurer vos informations personnelles dans la page d'options de l'extension."
+  },
+  "modal_missing_settings_open_options": {
+    "message": "Ouvrir les options"
+  }
+}
