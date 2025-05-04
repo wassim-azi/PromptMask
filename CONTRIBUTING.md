@@ -107,6 +107,6 @@ If your changes require updates to documentation:
 
 ## Questions?
 
-If you have any questions about contributing, feel free to open an issue or contact the maintainers directly at wassim@promptmask.ai
+If you have any questions about contributing, feel free to open an issue.
 
 Thank you for helping make PromptMask better!

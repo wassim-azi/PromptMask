@@ -25,6 +25,7 @@ const handler: PlasmoMessaging.MessageHandler = async (req, response) => {
   const personalData = storedData ? JSON.parse(storedData) : [];
   if (Array.isArray(personalData)) {
     response.send({ personalData });
+    return;
   }
 
   response.send({ error: "Invalid personalData format" });

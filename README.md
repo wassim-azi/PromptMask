@@ -152,4 +152,4 @@ PromptMask is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ## Support
 
-For questions, issues, or feature requests, please open an issue on [GitHub Issues](https://github.com/wassim-azi/PromptMask/issues) or contact the maintainer via the repository.
+For questions, issues, or feature requests, please open an issue on [GitHub Issues](https://github.com/wassim-azi/PromptMask/issues).
