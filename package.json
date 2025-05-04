@@ -40,12 +40,9 @@
   },
   "manifest": {
     "default_locale": "en",
-    "host_permissions": [
-      "https://*/*",
-      "http://*/*"
-    ],
     "permissions": [
-      "storage"
+      "storage",
+      "activeTab"
     ],
     "externally_connectable": {
       "matches": [
