@@ -92,33 +92,31 @@ function IndexPopup() {
 
       {/* Social / utility links */}
       <div className="flex justify-center items-center gap-6">
-        <div className="flex justify-center items-center gap-6">
-          {/* GitHub */}
-          <a
-            href="https://github.com/wassim-azi/PromptMask"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={chrome.i18n.getMessage("github")}
-            className="flex flex-col items-center social-icon">
-            <div className="flex flex-col items-center github-icon">
-              <FaGithub size={28} />
-              <span className="text-xs mt-1">{chrome.i18n.getMessage("github")}</span>
-            </div>
-          </a>
+        {/* GitHub */}
+        <a
+          href="https://github.com/wassim-azi/PromptMask"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={chrome.i18n.getMessage("github")}
+          className="flex flex-col items-center social-icon">
+          <div className="flex flex-col items-center github-icon">
+            <FaGithub size={28} />
+            <span className="text-xs mt-1">{chrome.i18n.getMessage("github")}</span>
+          </div>
+        </a>
 
-          {/* Chrome Web Store */}
-          <a
-            href="https://chrome.google.com/webstore/detail/hfjcbbnndgfkabeocajlmnjaajkdhgfa"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={chrome.i18n.getMessage("chrome")}
-            className="flex flex-col items-center social-icon">
-            <div className="flex flex-col items-center chrome-icon">
-              <FaChrome size={28} />
-              <span className="text-xs mt-1">{chrome.i18n.getMessage("chrome")}</span>
-            </div>
-          </a>
-        </div>
+        {/* Chrome Web Store */}
+        <a
+          href="https://chrome.google.com/webstore/detail/hfjcbbnndgfkabeocajlmnjaajkdhgfa"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={chrome.i18n.getMessage("chrome")}
+          className="flex flex-col items-center social-icon">
+          <div className="flex flex-col items-center chrome-icon">
+            <FaChrome size={28} />
+            <span className="text-xs mt-1">{chrome.i18n.getMessage("chrome")}</span>
+          </div>
+        </a>
       </div>
     </div>
   );
