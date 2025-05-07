@@ -1,0 +1,41 @@
+/* Popup container */
+.popup-container {
+  width: 320px;
+  min-height: 420px;
+  border: 3px solid #e2e8f0;
+}
+
+/* Title gradient styles */
+.title-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #6366f1, #a855f7, #ec4899);
+}
+
+/* Social icon hover effects */
+.social-icon {
+  transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* GitHub icon colors */
+.github-icon {
+  color: #24292e;
+}
+
+.github-icon:hover {
+  color: #0366d6;
+}
+
+/* Chrome icon colors */
+.chrome-icon {
+  color: #4285F4;
+}
+
+.chrome-icon:hover {
+  color: #0F9D58;
+}

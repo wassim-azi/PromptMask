@@ -1,8 +1,8 @@
 {
   "name": "promptmask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "PromptMask",
-  "description": "PromptMask replaces personal data in your AI prompts with fake or user-defined placeholder information.",
+  "description": "Protect your personal information in AI chatbot prompts by replacing sensitive data with placeholders before submission.",
   "author": "Wassim AZI <wassim@promptmask.ai>",
   "scripts": {
     "dev": "plasmo dev",
@@ -40,14 +40,9 @@
   },
   "manifest": {
     "default_locale": "en",
-    "host_permissions": [
-      "https://*/*",
-      "http://*/*"
-    ],
     "permissions": [
-      "activeTab",
-      "tabs",
-      "storage"
+      "storage",
+      "activeTab"
     ],
     "externally_connectable": {
       "matches": [
