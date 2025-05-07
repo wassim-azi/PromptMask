@@ -17,14 +17,18 @@ const handler: PlasmoMessaging.MessageHandler = async (req, response) => {
   const storage = new Storage();
   const storedData = await storage.get("personalData");
 
-  if (!storedData) {
-    response.send({ error: "No PII fields configured." });
-    return;
+  let personalData = [];
+  if (storedData) {
+    try {
+      personalData = JSON.parse(storedData);
+    } catch (e) {
+      response.send({ error: "No PII fields configured." });
+      return;
+    }
   }
-
-  const personalData = storedData ? JSON.parse(storedData) : [];
   if (Array.isArray(personalData)) {
     response.send({ personalData });
+    return;
   }
 
   response.send({ error: "Invalid personalData format" });

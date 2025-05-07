@@ -8,6 +8,7 @@ import { MdSecurity } from "react-icons/md";
 
 import { sendToBackground } from "@plasmohq/messaging";
 
+import "./popup.css";
 import "./style.css";
 
 function IndexPopup() {
@@ -29,17 +30,9 @@ function IndexPopup() {
   };
 
   return (
-    <div
-      className="flex flex-col items-center justify-between p-4 bg-white font-sans"
-      style={{
-        width: "300px",
-        minHeight: "420px",
-        border: "5px solid #e2e8f0"
-      }}>
+    <div className="flex flex-col items-center justify-between p-4 bg-white font-sans popup-container">
       {/* Title */}
-      <h1 className="text-3xl font-extrabold mb-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-lg tracking-wide leading-tight">
-        {chrome.i18n.getMessage("title")}
-      </h1>
+      <h1 className="text-3xl font-extrabold mb-4 text-center title-gradient drop-shadow-lg tracking-wide leading-tight">{chrome.i18n.getMessage("title")}</h1>
 
       {/* Illustration & captions */}
       <div className="flex-1 flex flex-col items-center justify-center">
@@ -99,33 +92,31 @@ function IndexPopup() {
 
       {/* Social / utility links */}
       <div className="flex justify-center items-center gap-6">
-        <div className="flex justify-center items-center gap-6">
-          {/* GitHub */}
-          <a
-            href="https://github.com/your-org/your-repo"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={chrome.i18n.getMessage("github")}
-            className="flex flex-col items-center hover:scale-110 transition-all duration-200">
-            <div className="flex flex-col items-center transition-all duration-200 text-[#24292e] hover:text-[#0366d6]">
-              <FaGithub size={28} />
-              <span className="text-xs mt-1">{chrome.i18n.getMessage("github")}</span>
-            </div>
-          </a>
+        {/* GitHub */}
+        <a
+          href="https://github.com/wassim-azi/PromptMask"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={chrome.i18n.getMessage("github")}
+          className="flex flex-col items-center social-icon">
+          <div className="flex flex-col items-center github-icon">
+            <FaGithub size={28} />
+            <span className="text-xs mt-1">{chrome.i18n.getMessage("github")}</span>
+          </div>
+        </a>
 
-          {/* Chrome Web Store */}
-          <a
-            href="https://chrome.google.com/webstore/detail/your-extension-id"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={chrome.i18n.getMessage("chrome")}
-            className="flex flex-col items-center hover:scale-110 transition-all duration-200">
-            <div className="flex flex-col items-center transition-all duration-200 text-[#4285F4] hover:text-[#0F9D58]">
-              <FaChrome size={28} />
-              <span className="text-xs mt-1">{chrome.i18n.getMessage("chrome")}</span>
-            </div>
-          </a>
-        </div>
+        {/* Chrome Web Store */}
+        <a
+          href="https://chrome.google.com/webstore/detail/hfjcbbnndgfkabeocajlmnjaajkdhgfa"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={chrome.i18n.getMessage("chrome")}
+          className="flex flex-col items-center social-icon">
+          <div className="flex flex-col items-center chrome-icon">
+            <FaChrome size={28} />
+            <span className="text-xs mt-1">{chrome.i18n.getMessage("chrome")}</span>
+          </div>
+        </a>
       </div>
     </div>
   );
