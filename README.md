@@ -2,11 +2,12 @@
 
 Protect your messages before submitting them to AI chat platforms
 
-[![Built with Plasmo](https://img.shields.io/badge/Built%20with-Plasmo-8E44AD.svg)](https://www.plasmo.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB.svg?logo=react&logoColor=white)](https://reactjs.org/)
 [![Material UI](https://img.shields.io/badge/Material_UI-5.0+-0081CB.svg?logo=material-ui&logoColor=white)](https://mui.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Plasmo framework](https://img.shields.io/badge/Framework-Plasmo-8E44AD.svg)](https://www.plasmo.com/)
+![CodeRabbit PRs](https://img.shields.io/coderabbit/prs/github/wassim-azi/PromptMask?utm_source=oss&utm_medium=github&utm_campaign=wassim-azi%2FPromptMask&labelColor=4F4F4F&color=FF9F00&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+PRs)
 
 PromptMask helps you protect your sensitive prompts and personal information when using popular AI chat bots. It adds a "Protect" button to major AI platforms, ensuring your personal identifiable information (PII) is protected before being sent to AI services.
 
